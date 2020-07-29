@@ -107,6 +107,10 @@ h1{
     height: 315;
 }
 
+video {
+    width: 860px;
+}
+
 .gradient {
     background: rgba(213, 55, 155, 1);
     background: -moz-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
