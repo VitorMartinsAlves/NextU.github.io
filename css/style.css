@@ -17,7 +17,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 2px 2px #141414;
-    }
+}
 
 body {
     color: white;
@@ -27,6 +27,10 @@ body {
 
 .login img {
     width: 25px;
+}
+
+a {
+    color: #141414;
 }
 
 .logo {
@@ -97,7 +101,7 @@ ul {
 }
 
 header a {
-    color: #fff;
+    background-color: #fff;
     text-decoration: none;
 }
 
