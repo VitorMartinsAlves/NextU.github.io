@@ -1,0 +1,114 @@
+:root {
+    --background: #141414;
+    --pink: #fc1e8b;
+    --purple: #7278c3;
+    --blue: #00a8dc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    height: 480px;
+    background-color: #cccccc;
+    background-image: url("../img/parasyte-131-1280x550.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px #141414;
+    }
+
+body {
+    color: white;
+    background-color: var(--background);
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login img {
+    width: 25px;
+}
+
+.logo {
+    width: 60px;
+    padding: 8px;
+}
+
+.text-align {
+    text-align: center;
+    align-items: center;
+}
+
+.options {
+    width: 450px;
+}
+
+.login {
+    width: 180px;
+}
+
+.options ul {
+    text-align: center;
+    align-items: center;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: white;
+    color: #141414;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alta {
+    width: 430px;
+    padding-top: 230px;
+}
+
+.grupo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradient {
+    background: rgba(213, 55, 155, 1);
+    background: -moz-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(213, 55, 155, 1)), color-stop(69%, rgba(119, 117, 193, 1)), color-stop(100%, rgba(114, 119, 195, 1)));
+    background: -webkit-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -o-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    background: linear-gradient(to right, rgba(213, 55, 155, 1) 0%, rgba(119, 117, 193, 1) 69%, rgba(114, 119, 195, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5379b', endColorstr='#7277c3', GradientType=1);
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 1200px) {}
+
+/*Fim media mas 1200px  */
+
+@media screen and (max-width: 768px) {}
+
+/* Fim media mas 460px*\
