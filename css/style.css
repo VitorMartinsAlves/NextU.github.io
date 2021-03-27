@@ -76,9 +76,9 @@ h3 {
     color: white;
 }
 
-
-
-
+h4 {
+    margin-top: 50px;
+}
 
 body {
     color: white;
@@ -164,7 +164,14 @@ h1 {
 }
 
 video {
+    display: flex;
+    margin-top: 10px;
     width: 860px;
+}
+
+.descVideo {
+    width: 860px;
+    margin-top: 10px;
 }
 
 .gradient {
