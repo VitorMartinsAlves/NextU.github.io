@@ -13,10 +13,33 @@
 .banner {
     height: 480px;
     background-color: #cccccc;
-    background-image: url("../img/parasyte-131-1280x550.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 2px 2px #141414;
+    animation-name: example;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        background-image: url("https://pbs.twimg.com/media/EGxMDe8X4AY7l7w.jpg");
+    }
+    20% {
+        background-image: url("https://pbs.twimg.com/media/EVVzEdZXsAAcuu2.jpg");
+    }
+    40% {
+        background-image: url("https://sucodemanga.com.br/wp-content/uploads/2017/08/hunter-x-hunter-thumb.jpg");
+    }
+    60% {
+        background-image: url("https://mega.ibxk.com.br///2019/03/29/29173600546072.jpg?ims=1200x480");
+    }
+    80% {
+        background-image: url("https://superninguem.com.br/wp-content/uploads/2020/06/Capa-Humanos-que-Ca%C3%A7am-1200x480.jpg");
+    }
+    100% {
+        background-image: url("https://pbs.twimg.com/media/EGxMDe8X4AY7l7w.jpg");
+    }
 }
 
 body {
@@ -32,7 +55,6 @@ body {
 a {
     color: #141414;
     text-decoration: none;
-
 }
 
 .logo {
@@ -52,8 +74,6 @@ a {
 .login {
     width: 180px;
 }
-
-
 
 .options ul {
     text-align: center;
@@ -78,8 +98,10 @@ ul {
 }
 
 .alta {
-    width: 430px;
+    width: 520px;
     padding-top: 230px;
+    background-repeat: no-repeat;
+    background-image: url("https://static.wikia.nocookie.net/hunterxhunter/images/0/05/Hunter_Association_logo.png/revision/latest?cb=20180405075402");
 }
 
 .grupo {
@@ -90,18 +112,21 @@ ul {
 h3 {
     font-size: 15px;
 }
-main h1{
-padding-top: 30px;
+
+main h1 {
+    padding-top: 30px;
 }
 
-h1{
+h1 {
     font-size: 28px;
 }
+
 .card img {
-    border-radius: 16px;   
+    border-radius: 16px;
     padding-top: 20px;
     width: 150px;
 }
+
 .favoritos img {
     width: 197px;
     height: 315;
