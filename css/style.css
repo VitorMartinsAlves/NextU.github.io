@@ -153,7 +153,6 @@ h1 {
     font-size: 28px;
 }
 .t1t2{
-    background-color: white;
 }
 .card img {
     border-radius: 16px;
@@ -167,7 +166,7 @@ h1 {
 }
 
 video {
-background-color: white;
+    border-radius: 10px;
     display: flex;
     margin-top: 10px;
     width: 860px;
