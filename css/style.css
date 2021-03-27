@@ -19,6 +19,7 @@
     animation-name: example;
     animation-duration: 24s;
     animation-iteration-count: infinite;
+    transition: opacity 0.5s ease-in-out;
 }
 
 @keyframes example {
@@ -41,6 +42,43 @@
         background-image: url("https://pbs.twimg.com/media/EGxMDe8X4AY7l7w.jpg");
     }
 }
+
+.titulo::before {
+    font-size: 80px;
+    content: "pinto";
+    animation-name: example3;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example3 {
+    0% {
+        content: "Boku no Hero Academia";
+    }
+    20% {
+        content: "Jujutsu Kaisen";
+    }
+    40% {
+        content: "Hunter X Hunter";
+    }
+    60% {
+        content: "Swoard Art Online";
+    }
+    80% {
+        content: "I Dont Know";
+    }
+    100% {
+        content: "Boku no Hero Academia";
+    }
+}
+
+h3 {
+    color: white;
+}
+
+
+
+
 
 body {
     color: white;
@@ -95,13 +133,6 @@ header {
 ul {
     display: flex;
     justify-content: space-between;
-}
-
-.alta {
-    width: 520px;
-    padding-top: 230px;
-    background-repeat: no-repeat;
-    background-image: url("https://static.wikia.nocookie.net/hunterxhunter/images/0/05/Hunter_Association_logo.png/revision/latest?cb=20180405075402");
 }
 
 .grupo {
