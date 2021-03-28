@@ -24,7 +24,6 @@
                     <div class="options text-align">
                         <ul>
                             <li><img class="logo" src="img/log.png" alt=""></li>
-
                             <li><a href="teste.html">INICIO</a></li>
                             <li>SERIES</li>
                             <li> ANIMES</li>
@@ -68,12 +67,57 @@
                 </div>
             </div>
 
+            <div class="lado">
+                <div class="videoBox">
+                    <h4>Kimetsu no Yaiba - EP 2</h4>
+                    <div class="t1t2">
 
+                        <video class=" " controls>
+                            <source src="img/mp4/data.mp4" type="video/mp4" autoplay>
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="descVideo">Desde a antiguidade, sempre houve rumores de demônios devoradores de
+                            homens à espreita na floresta. Isso fez com que os habitantes da cidade não ousassem se
+                            aventurar nela à noite, mas a lenda diz que há um caçador de demônios que se dedica a viajar
+                            pelos lugares impensáveis para os outros enquanto termina com todo demônio maligno que é. O
+                            jovem Tanjiro verá em sua própria carne que a existência de demônios não era apenas rumores…
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            
+
+
+            </div>
     </main>
     <footer>
 
     </footer>
+    <script>
+        $(document).ready(function(){
+   $('.qualitypick').change(function(){ 
+
+      //Have several videos in file, so have to navigate directly
+      video = $(this).parent().find("video");
+
+      //Need access to DOM element for some functionality
+      videoDOM = video.get(0);
+
+      curtime = videoDOM.currentTime;  //Get Current Time of Video
+      source = video.find("source[label=" + $(this).textContent + "]"); //Copy Source
+
+      source.remove();                 //Remove the source from select
+      video.prepend(source);           //Prepend source on top of options
+      video.load();                    //Reload Video
+      videoDOM.currentTime = curtime;  //Continue from video's stop
+      videoDOM.play();                 //Resume video
+   })
+})
+    </script>
     <script src="https://vjs.zencdn.net/7.8.3/video.js"></script>
+    <script src="js/videoplayer.js"></script>
 
 </body>
 
